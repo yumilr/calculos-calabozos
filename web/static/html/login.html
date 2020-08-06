@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../js/libs/jquery-3.3.1.js"></script>
+    <script src="../js/libs/bootstrap.min.js"></script>
+    <script src="../js/login.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+    body{
+        background-color: #cccccc;
+        background-image: url("/static/html/images/pexels-aaron-kittredge-3624339.jpg");
+    }
+    table{
+        text-align: center;
+        vertical-align: center;
+        width: 100%;
+    }
+    .align-right{
+        text-align: right;
+        color: black;
+        text-shadow: 2px 2px whitesmoke;
+        font-family: Piedra;
+        width: 45%;
+    }
+    .align-left{
+        text-align: left;
+        color: black;
+        text-shadow: 2px 2px whitesmoke;
+        font-family: Piedra;
+    }
+    .class{
+        text-align: center;
+        font-family: 'Rye',cursive;
+    }
+    img1 {
+            float: left;
+        }
+    img2{
+            float: right;
+        }
+    </style>
+    <title>C&C Mana</title>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
+    <h1 class="class" style="font-size: 70px; color:#331200; text-shadow: 2px 2px black;"><br><br><b>LOGIN</b></h1>
+    <table>
+        <tr>
+            <td class="align-right" style="font-size: 25px;">Username: </td>
+            <td class="align-left"><input type="text" name="username" id="username"></td>
+        </tr>
+        <br>
+        <tr>
+            <td class="align-right" style="font-size: 25px;">Password: </td>
+            <td class="align-left"><input type="password" name="password" id="password" ></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <br>
+                <button onclick="login()" type="button" style="font-family: 'Rye', cursive;" class="btn btn-outline-dark">LOGIN</button>
+            </td>
+        </tr>
+    </table>
+    <img1>
+        <img width="250" height="250" src="/static/html/images/Hechicera.png">
+    </img1>
+    <img2>
+        <img width="250" height="250" src="/static/html/images/Plague Doctor.png">
+    </img2>
+</body>
+</html>
